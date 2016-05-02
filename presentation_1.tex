@@ -379,7 +379,7 @@ should be < 3\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Experiments}
+\frametitle{Experiments And Conclusion}
 
 \begin{itemize}
   \item 30 bugs belonging to 10 open sources systems (Ant, ArgoUML, DnsJava, jFreeChart, Log4j, MCT, PDFBox, Mahout, Hadoop, ActiveMQ).
@@ -387,34 +387,13 @@ should be < 3\\
   \item Average success time is 19 minutes.
   \item Average fail time is 11 minutes.
   \item Average JUNIT length is 5 java statements.
-  \item Only 6\% (2/30) of the bugs could have been reproduced using undirected model checking.
+
+  \vspace{0.5cm}
+  \item Stress JCHARMING with more bugs
+  \item Test the performances of JCHARMING with multi-threading related bugs
 \end{itemize}
 
 \end{frame}
-
-\begin{frame}
-\frametitle{Conclusion}
-
-\begin{itemize}
-\item JCHARMING (Java CrasH Automatic
-Reproduction by directed Model checking)
-\item Automatic bug
-reproduction technique that combines crash traces and
-directed model checking
-\item Direct the model checking engine with a backward static slice
-\item Was able to reproduce fully or partially 80\%  of the bugs
-\vspace{0.5cm}
-\item Stress JCHARMING with more bugs
-\begin{itemize}
-\item Fine tune the approach
-\item Assess the scalability on larger / proprietary systems
-\end{itemize}
-\item Test the performances of JCHARMING with multi-threading related bugs
-
-\end{itemize}
-
-\end{frame}
-
 
 %------------------------------------------------
 
